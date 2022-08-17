@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">Plain Ol\' Notes 3</string>
-    <string name="action_add_sample_data">Add sample data</string>
+    <string name="action_add_sample_data">Add Sample Data</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_editor">EditorActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -91,9 +99,10 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="enter_note">Enter note</string>
-    <string name="delete_all">Delete all notes</string>
-    <string name="new_note">New note</string>
-    <string name="edit_note">Edit note</string>
-    <string name="delete">Delete</string>
+    <string name="enter_note">Enter note...</string>
+    <string name="delete_all_notes">Delete All Notes</string>
+    <string name="note_display_text">(%1$s) ... %2$s</string>
+    <string name="new_note">New Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="delete_note">Delete Note</string>
 </resources>
